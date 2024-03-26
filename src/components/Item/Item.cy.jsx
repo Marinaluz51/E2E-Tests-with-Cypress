@@ -11,8 +11,6 @@ const mockedItem = {
         }
     }
 }
-
-
 describe('<Item>', () => {
     it('should render correctly', () => {
         cy.mount(<Item item={mockedItem} />);
